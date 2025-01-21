@@ -14,6 +14,10 @@
 
 - Performance: Efficient dependency resolution and installation speed.
 
+## Why not use `uv`?
+
+It's a VC backed company that owns this entire tool and, while it's open source, there's always the questioning of the company changing the licensing.
+
 ## Links
 
 [Github Link to UV](https://github.com/astral-sh/uv)
