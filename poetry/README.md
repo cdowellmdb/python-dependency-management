@@ -24,7 +24,7 @@ Ensure Poetry is installed on your system. Follow the [Poetry installation guide
 poetry init
 ```
 
-    Answer the prompts to create a `pyproject.toml` file. Alternatively, use the `--no-interaction` flag for defaults.
+Answer the prompts to create a `pyproject.toml` file. Alternatively, use the `--no-interaction` flag for defaults.
 
 2. **Add Dependencies:**
 
@@ -88,8 +88,8 @@ Exit the Poetry-managed shell with:
 ```bash
 exit
 ```
-or 
 
-Notes for Data Science Projects
-Poetry’s enhanced reproducibility is particularly useful in data science projects where library versions can significantly impact model behavior.
-The poetry.lock file ensures environments are consistent across development, testing, and production.
+## Notes
+- Automatic virtual environment creation, robust dependency resolution, version pinning, clear dependency declaration in a `pyproject.toml` file, a `poetry.lock` file to ensure reproducible builds, and the ability to manage complex dependency relationships.
+
+- Poetry’s enhanced reproducibility is particularly useful in data science projects where library versions can significantly impact model behavior.

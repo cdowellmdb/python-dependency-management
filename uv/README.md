@@ -42,9 +42,10 @@ It's a VC backed company that owns this entire tool and, while it's open source,
 
     Create a new `uv` environment and initialize the project:
 
-    ``bash
+    ```bash
     uv init --no-package --no-readme --no-workspace
     ```
+
     This sets up a virtual environment and creates a `pyproject.toml` file in the current directory.
 
 3. **Manage Python Versions**
@@ -100,20 +101,19 @@ To replicate the environment on a new machine:
     uv run python data_pipeline.py
     ```
 
-## Key Benefits of uv Over Other Tools
+## Key Benefits of `uv` Over Other Tools
 
-- Integrated Python Version Management: `uv` installs and manages multiple Python versions, allowing seamless switching and ensuring compatibility with project requirements. 
+- **Integrated Python Version Management:** `uv` installs and manages multiple Python versions, allowing seamless switching and ensuring compatibility with project requirements. 
 
-- Unified Workflow: `uv` combines environment creation, dependency management, and isolation in a single tool, reducing complexity.
+- **Unified Workflow:** `uv` combines environment creation, dependency management, and isolation in a single tool, reducing complexity.
 
-- Reproducibility: The `uv.lock` file ensures consistent environments across systems, just like Poetry.
+- **Performance:** `uv` is optimized for speed, especially when resolving dependencies and creating environments.
 
-- Performance: `uv` is optimized for speed, especially when resolving dependencies and creating environments.
+- **Reproducibility:** Similar to Poetry, uv produces a `uv.lock` file ensures consistent environments across systems, just like Poetry.
 
-- Simplicity: Minimal boilerplate and commands for setup and execution.
+- **Simplicity:** Minimal boilerplate and commands for setup and execution.
 
-- Portability: Fully isolated environments reduce issues with system-level Python dependencies.
-
+- **Portability:** Fully isolated environments reduce issues with system-level Python dependencies.
 
 ## Other Benefits
 
@@ -138,7 +138,7 @@ By including this metadata, running the script with `uv` ensures that the specif
 
 ### Ephemeral Environment Execution:
 
-uv facilitates running Python applications in ephemeral (temporary) environments, ensuring that your global environment remains unaffected.
+`uv` facilitates running Python applications in ephemeral (temporary) environments, ensuring that your global environment remains unaffected.
 
 This is useful for testing or running scripts with specific dependencies without long-term environment modifications.
 Example:
@@ -179,7 +179,7 @@ uv export > requirements.txt
 
 This is useful for other environments where you may still need to provide a `requirements.txt` file.
 
-### Building Packages with uv**
+### Building Packages with uv
 
 `uv` simplifies the creation of source distributions and wheels, essential for sharing your Python projects.
 
