@@ -4,15 +4,15 @@
 
 `uv` is a modern Python dependency management tool that simplifies environment management and enhances reproducibility. It builds on the strengths of tools like `pip`, `venv`, and `poetry` while offering unique benefits:
 
-- Native Python Syntax: Leverages `pyproject.toml` for cleaner project configuration.
+- **Native Python Syntax:** Leverages `pyproject.toml` for cleaner project configuration.
 
-- Python Version Management: Installs and manages multiple Python versions seamlessly. 
+- **Python Version Management:** Installs and manages multiple Python versions seamlessly. 
 
-- Enhanced Isolation: Fully isolates dependencies and avoids interference with global Python installations.
+- **Enhanced Isolation:** Fully isolates dependencies and avoids interference with global Python installations.
 
-- Streamlined Workflows: Handles environment creation, dependency resolution, and lockfile management seamlessly.
+- **Streamlined Workflows:** Handles environment creation, dependency resolution, and lockfile management seamlessly.
 
-- Performance: Efficient dependency resolution and installation speed.
+- **Performance:** Efficient dependency resolution and installation speed.
 
 ## Why not use `uv`?
 
@@ -20,8 +20,9 @@ It's a VC backed company that owns this entire tool and, while it's open source,
 
 ## Links
 
-[Github Link to UV](https://github.com/astral-sh/uv)
-[Docs](https://docs.astral.sh/uv/)
+- [Github Link to UV](https://github.com/astral-sh/uv)
+
+- [Docs](https://docs.astral.sh/uv/)
 
 ## Setting Up the Project with `uv`
 1. **Install `uv`**
@@ -70,7 +71,7 @@ It's a VC backed company that owns this entire tool and, while it's open source,
     ```bash
     uv add pandas scikit-learn
     ```
-    This automatically resolves dependencies and locks versions in a `uv.lock` file.
+    This automatically resolves dependencies and locks versions in a `uv.lock` file. Moreover, this will automatically place these dependencies in the `pyproject.toml` file.
 
 5. **Run the Script**
 
@@ -163,7 +164,7 @@ These commands set up a new project with the necessary dependencies, streamlinin
 
 ### Support for Cargo-Style Workspaces:
 
-`uv` supports Cargo-style workspaces, allowing you to manage multiple related projects within a single repository.
+`uv` supports [Cargo-style workspaces](https://doc.rust-lang.org/cargo/), allowing you to manage multiple related projects within a single repository.
 
 This is advantageous for complex data science projects that involve multiple components or modules, enabling efficient management and integration.
 
