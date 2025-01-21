@@ -1,4 +1,4 @@
-# Managing Python Dependencies with uv for Data Science
+# Managing Python Dependencies with uv
 
 ## Why Use `uv`?
 

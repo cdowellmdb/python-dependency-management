@@ -1,4 +1,4 @@
-# Managing Python Dependencies with pip and venv for Data Science
+# Managing Python Dependencies with pip and venv
 
 This project demonstrates a simple data science workflow using `pandas` for data manipulation and `scikit-learn` for machine learning.
 
