@@ -56,20 +56,21 @@ The script trains a simple linear regression model and evaluates it, printing th
 
 2. **Reinstall Dependencies**
 
-To recreate the environment on a new machine, run:
+    To recreate the environment on a new machine, run:
 
     ```bash
     pip install -r requirements.txt
     ```
+    
 
 ## Deactivating the Environment
-    Exit the virtual environment by running:
+Exit the virtual environment by running:
 
-    ```bash
-    deactivate
-    ```
+```
+deactivate
+```
 
 ## Notes
-- Always have to manually update the `requirements.txt` file when installing new libraries or updating existing ones.
+- **Always have to manually update the `requirements.txt` file when installing new libraries or updating existing ones.**
 - `requirements.txt` does not provide any information on python versioning.
 
